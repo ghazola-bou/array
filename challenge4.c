@@ -11,9 +11,11 @@ main(){
     max = T[0];
     for(i=0;i<10;i++){
 
-    if(max <T[i])
+    if(max <T[i]){
         max=T[i];
-    }
+        }
     printf("Somme des Elemment :%d",max);
-    return =0;
+    return 0;
+
+}
 }
